@@ -43,7 +43,7 @@ class NumPrint extends Thread
 		System.out.println("Number printing task stated");
 		for(int i=1;i<=10;i++)
 		{
-			System.out.println((char)i);
+			System.out.println(i);
 			try {
 			Thread.sleep(1000);
 			}
